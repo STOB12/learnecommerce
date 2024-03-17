@@ -1,0 +1,9 @@
+package com.example.ecommerce.enums;
+
+public enum UserRole {
+
+    ADMIN,
+
+    USER
+
+}
