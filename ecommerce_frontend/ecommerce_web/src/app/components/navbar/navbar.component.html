@@ -6,13 +6,18 @@
         </div>
         <div class="nav-links">
             <a nz-button nzType="link" routerLink="/register" routerLinkActive="active">Sign up</a>
+            <a nz-button nzType="link" routerLink="/login" routerLinkActive="active">Login</a>
         </div>
     </nz-header>
 
     <nz-sider nzCollapsible nzBreakpoint="lg" [nzCollapsedWidth]="0" class="mobile-sidenav">
         <ul class="nav-links" nz-menu nzThema="dark" nzMode="inline">
             <li nz-menu-item>
-                <a nz-button nzType="link" routerLink="/register" routerLinkActive="active"> Sign Up</a>
+                <a nz-button nzType="link" routerLink="/register" routerLinkActive="active">Sign Up</a>
+            </li>
+
+            <li nz-menu-item>
+                <a nz-button nzType="link" routerLink="/login" routerLinkActive="active">Login</a>
             </li>
 
         </ul>

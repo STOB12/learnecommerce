@@ -21,6 +21,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout'; // by gemini
 import { CommonModule } from '@angular/common';
 import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzSpinModule } from 'ng-zorro-antd/spin';
+import { LoginComponent } from './components/login/login.component';
 // ... import other modules as needed
 
 
@@ -30,7 +31,8 @@ registerLocaleData(en);
   declarations: [
     AppComponent,
     RegisterComponent,
-    NavbarComponent
+    NavbarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
