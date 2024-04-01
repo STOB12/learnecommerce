@@ -22,6 +22,8 @@ import { CommonModule } from '@angular/common';
 import { NzFormModule } from 'ng-zorro-antd/form';
 import { NzSpinModule } from 'ng-zorro-antd/spin';
 import { LoginComponent } from './components/login/login.component';
+import { AdminModule } from './admin/admin.module';
+import { UserModule } from './user/user.module';
 // ... import other modules as needed
 
 
@@ -48,6 +50,8 @@ registerLocaleData(en);
     NzFormModule,
     NzSpinModule,
     NzInputModule,
+    AdminModule,
+    UserModule,
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US },
